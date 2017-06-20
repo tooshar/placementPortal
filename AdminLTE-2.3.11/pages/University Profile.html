@@ -33,11 +33,15 @@
   
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
-  <script >  function add(){
+  <script >   function add1(){
        
       $(".f2").clone().appendTo(".f1"); 
      }
-
+      
+        function add2(){
+       
+      $(".f4").clone().appendTo(".f3"); 
+     }
 </script>
 <div class="wrapper">
 
@@ -394,7 +398,7 @@
               <div class="box-body">
               <div class="form-group">
                 <label>Institute Name:</label>
-                <select id="i3" class="form-control select2 select2-hidden-accessible selectipicker" multiple style="width: 100%" tabindex="-1" aria-hidden="true">
+                <select id="i3" class="form-control select2 select2-hidden-accessible" style="width: 100%" tabindex="-1" aria-hidden="true">
                   <option selected="selected">Lovely Professional University</option>
                   <option>IIT DELHI</option>
                   <option>IIT BOMBAY</option>
@@ -463,7 +467,8 @@
                     </div>
                   </div>
                       </div>
-                       <img src="small_plus.png" height="50px" onclick="add()" class="add_btn" width="50px" style="margin-right:0px;float:right;">
+                      <i style="margin-right:0px;float:right;" onClick="add1();" class="fa fa-plus"></i>    
+                       <!--img src="small_plus.png" height="50px" onclick="add()" class="add_btn" width="50px" style="margin-right:0px;float:right;"-->
                
                    
                
@@ -485,40 +490,30 @@
               <!-- /.box-header -->
               <!-- form start -->
               <form class="form-horizontal">
-                <div class="box-body">
-                  <div class="form-group">
-                    <label  class="col-sm-2 control-label">Alumni 1 Name</label>
+                <div class="box-body f3">
+                  <div class="form-group f4">
+                    <label  class="col-sm-2 control-label">Alumni Name</label>
                     <div class="col-sm-4">
-                      <input type="text" class="form-control" id="a1n" placeholder="Alumni 1 Name" />
+                      <input type="text" class="form-control" id="a1n" placeholder="Alumni Name" />
                     </div>
-                    <label  class="col-sm-2 control-label">Alumni 2 Name</label>
+                    <label  class="col-sm-2 control-label">Alumni Linkedin</label>
                     <div class="col-sm-4">
-                      <input type="text" class="form-control" id="a2n" placeholder="Alumni 2 Name" />
-                    </div>
-                  </div>
-
-                  <div class="form-group">
-                    <label class="col-sm-2 control-label">Alumni 1 Linkedin</label>
-                    <div class="col-sm-4">
-                      <input type="text" class="form-control" id="a1w" placeholder="Alumni 1 Linkedin" />
-                    </div>
-                    <label class="col-sm-2 control-label">Alumni 2 Linkedin</label>
-                    <div class="col-sm-4">
-                      <input type="text" class="form-control" id="a2w" placeholder="Alumni 2 Linkedin" />
+                      <input type="text" class="form-control" id="a2n" placeholder="Alumni Linkedin" />
                     </div>
                   </div>
-              
+                </div>
+              <i style="margin-right:0px;float:right;" onClick="add2();" class="fa fa-plus"></i>    
+                      
               </form>
             </div>
           </div>
-                 
+                 <button type="button" class="btn btn-block btn-primary btn-lg">Submit</button>
               
               
 
             </form>
        </div>
        </div>
-       <button type="submit" style="color:gray;border-radius:10px;float:right" form="form1" value="Submit">Submit</button>
    </section>
    
  
