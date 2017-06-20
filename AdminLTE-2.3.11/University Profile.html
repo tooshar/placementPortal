@@ -7,16 +7,16 @@
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.6 -->
-  <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
   <!-- Ionicons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
   <!-- Theme style -->
-  <link rel="stylesheet" href="../dist/css/AdminLTE.min.css">
+  <link rel="stylesheet" href="dist/css/AdminLTE.min.css">
   <!-- AdminLTE Skins. Choose a skin from the css/skins
        folder instead of downloading all of them to reduce the load. -->
-  <link rel="stylesheet" href="../dist/css/skins/_all-skins.min.css">
+  <link rel="stylesheet" href="dist/css/skins/_all-skins.min.css">
   <link rel="stylesheet" href="./style1.css">
   <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -33,21 +33,25 @@
   
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
-  <script >  function add(){
+  <script >   function add1(){
        
       $(".f2").clone().appendTo(".f1"); 
      }
-
+      
+        function add2(){
+       
+      $(".f4").clone().appendTo(".f3"); 
+     }
 </script>
 <div class="wrapper">
 
   <header class="main-header">
     <!-- Logo -->
-    <a href="../index2.html" class="logo">
+    <a href="" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
-      <span class="logo-mini"><b>A</b>LT</span>
+      <span class="logo-mini"><b>U</b>P</span>
       <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg"><b>Admin</b>LTE</span>
+      <span class="logo-lg"><b>University</b>Profile</span>
     </a>
     <!-- Header Navbar: style can be found in header.less -->
     <nav class="navbar navbar-static-top">
@@ -306,204 +310,49 @@
   </header>
   <!-- Left side column. contains the logo and sidebar -->
   <aside class="main-sidebar">
-    <!-- sidebar: style can be found in sidebar.less -->
-    <section class="sidebar">
-      <!-- Sidebar user panel -->
-      <div class="user-panel">
-        <div class="pull-left image">
-          <img src="../dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
-        </div>
-        <div class="pull-left info">
-          <p>Alexander Pierce</p>
-          <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
-        </div>
-      </div>
-      <!-- search form -->
-      <form action="#" method="get" class="sidebar-form">
-        <div class="input-group">
-          <input type="text" name="q" class="form-control" placeholder="Search...">
-              <span class="input-group-btn">
+
+      <!-- sidebar: style can be found in sidebar.less -->
+      <section class="sidebar">
+
+        <!-- Sidebar user panel (optional) -->
+        
+        <!-- search form (Optional) -->
+        <form action="#" method="get" class="sidebar-form">
+          <div class="input-group">
+            <input type="text" name="q" class="form-control" placeholder="Search...">
+            <span class="input-group-btn">
                 <button type="submit" name="search" id="search-btn" class="btn btn-flat"><i class="fa fa-search"></i>
                 </button>
               </span>
-        </div>
-      </form>
-      <!-- /.search form -->
-      <!-- sidebar menu: : style can be found in sidebar.less -->
-      <ul class="sidebar-menu">
-        <li class="header">MAIN NAVIGATION</li>
-        <li class="treeview">
-          <a href="#">
-            <i class="fa fa-dashboard"></i> <span>Dashboard</span>
+          </div>
+        </form>
+        <!-- /.search form -->
+
+        <!-- Sidebar Menu -->
+        <ul class="sidebar-menu">
+          <!-- Optionally, you can add icons to the links -->
+          <li ><a href="university_dashboard.html"><i class="fa fa-link"></i><span>Dashboard</span></a></li>
+          <li class="active"><a href="#"><i class="fa fa-link"></i> <span>University Profile</span></a></li>
+          <li><a href="Invite%20Students.html"><i class="fa fa-link"></i> <span>Invite Students</span></a></li>
+          <li><a href="invitecompanies.html"><i class="fa fa-link"></i> <span>Invite Companies</span></a></li>
+          <li class="treeview">
+            <a href="active"><i class="fa fa-link"></i> <span>Drive Management</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
-          <ul class="treeview-menu">
-            <li><a href="../index.html"><i class="fa fa-circle-o"></i> Dashboard v1</a></li>
-            <li><a href="../index2.html"><i class="fa fa-circle-o"></i> Dashboard v2</a></li>
-          </ul>
-        </li>
-        <li class="treeview">
-          <a href="#">
-            <i class="fa fa-files-o"></i>
-            <span>Layout Options</span>
-            <span class="pull-right-container">
-              <span class="label label-primary pull-right">4</span>
-            </span>
-          </a>
-          <ul class="treeview-menu">
-            <li><a href="layout/top-nav.html"><i class="fa fa-circle-o"></i> Top Navigation</a></li>
-            <li><a href="layout/boxed.html"><i class="fa fa-circle-o"></i> Boxed</a></li>
-            <li><a href="layout/fixed.html"><i class="fa fa-circle-o"></i> Fixed</a></li>
-            <li><a href="layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> Collapsed Sidebar</a></li>
-          </ul>
-        </li>
-        <li class="active">
-          <a href="widgets.html">
-            <i class="fa fa-th"></i> <span>Widgets</span>
-            <span class="pull-right-container">
-              <small class="label pull-right bg-green">new</small>
-            </span>
-          </a>
-        </li>
-        <li class="treeview">
-          <a href="#">
-            <i class="fa fa-pie-chart"></i>
-            <span>Charts</span>
-            <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
-          </a>
-          <ul class="treeview-menu">
-            <li><a href="charts/chartjs.html"><i class="fa fa-circle-o"></i> ChartJS</a></li>
-            <li><a href="charts/morris.html"><i class="fa fa-circle-o"></i> Morris</a></li>
-            <li><a href="charts/flot.html"><i class="fa fa-circle-o"></i> Flot</a></li>
-            <li><a href="charts/inline.html"><i class="fa fa-circle-o"></i> Inline charts</a></li>
-          </ul>
-        </li>
-        <li class="treeview">
-          <a href="#">
-            <i class="fa fa-laptop"></i>
-            <span>UI Elements</span>
-            <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
-          </a>
-          <ul class="treeview-menu">
-            <li><a href="UI/general.html"><i class="fa fa-circle-o"></i> General</a></li>
-            <li><a href="UI/icons.html"><i class="fa fa-circle-o"></i> Icons</a></li>
-            <li><a href="UI/buttons.html"><i class="fa fa-circle-o"></i> Buttons</a></li>
-            <li><a href="UI/sliders.html"><i class="fa fa-circle-o"></i> Sliders</a></li>
-            <li><a href="UI/timeline.html"><i class="fa fa-circle-o"></i> Timeline</a></li>
-            <li><a href="UI/modals.html"><i class="fa fa-circle-o"></i> Modals</a></li>
-          </ul>
-        </li>
-        <li class="treeview">
-          <a href="#">
-            <i class="fa fa-edit"></i> <span>Forms</span>
-            <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
-          </a>
-          <ul class="treeview-menu">
-            <li><a href="forms/general.html"><i class="fa fa-circle-o"></i> General Elements</a></li>
-            <li><a href="forms/advanced.html"><i class="fa fa-circle-o"></i> Advanced Elements</a></li>
-            <li><a href="forms/editors.html"><i class="fa fa-circle-o"></i> Editors</a></li>
-          </ul>
-        </li>
-        <li class="treeview">
-          <a href="#">
-            <i class="fa fa-table"></i> <span>Tables</span>
-            <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
-          </a>
-          <ul class="treeview-menu">
-            <li><a href="tables/simple.html"><i class="fa fa-circle-o"></i> Simple tables</a></li>
-            <li><a href="tables/data.html"><i class="fa fa-circle-o"></i> Data tables</a></li>
-          </ul>
-        </li>
-        <li>
-          <a href="calendar.html">
-            <i class="fa fa-calendar"></i> <span>Calendar</span>
-            <span class="pull-right-container">
-              <small class="label pull-right bg-red">3</small>
-              <small class="label pull-right bg-blue">17</small>
-            </span>
-          </a>
-        </li>
-        <li>
-          <a href="mailbox/mailbox.html">
-            <i class="fa fa-envelope"></i> <span>Mailbox</span>
-            <span class="pull-right-container">
-              <small class="label pull-right bg-yellow">12</small>
-              <small class="label pull-right bg-green">16</small>
-              <small class="label pull-right bg-red">5</small>
-            </span>
-          </a>
-        </li>
-        <li class="treeview">
-          <a href="#">
-            <i class="fa fa-folder"></i> <span>Examples</span>
-            <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
-          </a>
-          <ul class="treeview-menu">
-            <li><a href="examples/invoice.html"><i class="fa fa-circle-o"></i> Invoice</a></li>
-            <li><a href="examples/profile.html"><i class="fa fa-circle-o"></i> Profile</a></li>
-            <li><a href="examples/login.html"><i class="fa fa-circle-o"></i> Login</a></li>
-            <li><a href="examples/register.html"><i class="fa fa-circle-o"></i> Register</a></li>
-            <li><a href="examples/lockscreen.html"><i class="fa fa-circle-o"></i> Lockscreen</a></li>
-            <li><a href="examples/404.html"><i class="fa fa-circle-o"></i> 404 Error</a></li>
-            <li><a href="examples/500.html"><i class="fa fa-circle-o"></i> 500 Error</a></li>
-            <li><a href="examples/blank.html"><i class="fa fa-circle-o"></i> Blank Page</a></li>
-            <li><a href="examples/pace.html"><i class="fa fa-circle-o"></i> Pace Page</a></li>
-          </ul>
-        </li>
-        <li class="treeview">
-          <a href="#">
-            <i class="fa fa-share"></i> <span>Multilevel</span>
-            <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
-          </a>
-          <ul class="treeview-menu">
-            <li><a href="#"><i class="fa fa-circle-o"></i> Level One</a></li>
-            <li>
-              <a href="#"><i class="fa fa-circle-o"></i> Level One
-                <span class="pull-right-container">
-                  <i class="fa fa-angle-left pull-right"></i>
-                </span>
-              </a>
-              <ul class="treeview-menu">
-                <li><a href="#"><i class="fa fa-circle-o"></i> Level Two</a></li>
-                <li>
-                  <a href="#"><i class="fa fa-circle-o"></i> Level Two
-                    <span class="pull-right-container">
-                      <i class="fa fa-angle-left pull-right"></i>
-                    </span>
-                  </a>
-                  <ul class="treeview-menu">
-                    <li><a href="#"><i class="fa fa-circle-o"></i> Level Three</a></li>
-                    <li><a href="#"><i class="fa fa-circle-o"></i> Level Three</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </li>
-            <li><a href="#"><i class="fa fa-circle-o"></i> Level One</a></li>
-          </ul>
-        </li>
-        <li><a href="../documentation/index.html"><i class="fa fa-book"></i> <span>Documentation</span></a></li>
-        <li class="header">LABELS</li>
-        <li><a href="#"><i class="fa fa-circle-o text-red"></i> <span>Important</span></a></li>
-        <li><a href="#"><i class="fa fa-circle-o text-yellow"></i> <span>Warning</span></a></li>
-        <li><a href="#"><i class="fa fa-circle-o text-aqua"></i> <span>Information</span></a></li>
-      </ul>
-    </section>
-    <!-- /.sidebar -->
-  </aside>
+            <ul class="treeview-menu">
+              <li ><a href="CreateNewDrive.html">Create Drive</a></li>
+              <li><a href="upcomingDrives.html">Upcoming Drive</a></li>
+              <li><a href="#">Past Drives</a></li>
+              <li><a href="#">Start Drive</a></li>
+            </ul>
+          </li>
+        </ul>
+        <!-- /.sidebar-menu -->
+      </section>
+      <!-- /.sidebar -->
+    </aside>
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
@@ -549,7 +398,7 @@
               <div class="box-body">
               <div class="form-group">
                 <label>Institute Name:</label>
-                <select id="i3" class="form-control select2 select2-hidden-accessible selectipicker" multiple style="width: 100%" tabindex="-1" aria-hidden="true">
+                <select id="i3" class="form-control select2 select2-hidden-accessible" style="width: 100%" tabindex="-1" aria-hidden="true">
                   <option selected="selected">Lovely Professional University</option>
                   <option>IIT DELHI</option>
                   <option>IIT BOMBAY</option>
@@ -618,7 +467,8 @@
                     </div>
                   </div>
                       </div>
-                       <img src="small_plus.png" height="50px" onclick="add()" class="add_btn" width="50px" style="margin-right:0px;float:right;">
+                      <i style="margin-right:0px;float:right;" onClick="add1();" class="fa fa-plus"></i>    
+                       <!--img src="small_plus.png" height="50px" onclick="add()" class="add_btn" width="50px" style="margin-right:0px;float:right;"-->
                
                    
                
@@ -640,40 +490,30 @@
               <!-- /.box-header -->
               <!-- form start -->
               <form class="form-horizontal">
-                <div class="box-body">
-                  <div class="form-group">
-                    <label  class="col-sm-2 control-label">Alumni 1 Name</label>
+                <div class="box-body f3">
+                  <div class="form-group f4">
+                    <label  class="col-sm-2 control-label">Alumni Name</label>
                     <div class="col-sm-4">
-                      <input type="text" class="form-control" id="a1n" placeholder="Alumni 1 Name" />
+                      <input type="text" class="form-control" id="a1n" placeholder="Alumni Name" />
                     </div>
-                    <label  class="col-sm-2 control-label">Alumni 2 Name</label>
+                    <label  class="col-sm-2 control-label">Alumni Linkedin</label>
                     <div class="col-sm-4">
-                      <input type="text" class="form-control" id="a2n" placeholder="Alumni 2 Name" />
-                    </div>
-                  </div>
-
-                  <div class="form-group">
-                    <label class="col-sm-2 control-label">Alumni 1 Linkedin</label>
-                    <div class="col-sm-4">
-                      <input type="text" class="form-control" id="a1w" placeholder="Alumni 1 Linkedin" />
-                    </div>
-                    <label class="col-sm-2 control-label">Alumni 2 Linkedin</label>
-                    <div class="col-sm-4">
-                      <input type="text" class="form-control" id="a2w" placeholder="Alumni 2 Linkedin" />
+                      <input type="text" class="form-control" id="a2n" placeholder="Alumni Linkedin" />
                     </div>
                   </div>
-              
+                </div>
+              <i style="margin-right:0px;float:right;" onClick="add2();" class="fa fa-plus"></i>    
+                      
               </form>
             </div>
           </div>
-                 
+                 <button type="button" class="btn btn-block btn-primary btn-lg">Submit</button>
               
               
 
             </form>
        </div>
        </div>
-       <button type="submit" style="color:gray;border-radius:10px;float:right" form="form1" value="Submit">Submit</button>
    </section>
    
  
@@ -895,17 +735,17 @@
 <!-- ./wrapper -->
 
 <!-- jQuery 2.2.3 -->
-<script src="../plugins/jQuery/jquery-2.2.3.min.js"></script>
+<script src="plugins/jQuery/jquery-2.2.3.min.js"></script>
 <!-- Bootstrap 3.3.6 -->
-<script src="../bootstrap/js/bootstrap.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
 <!-- Slimscroll -->
-<script src="../plugins/slimScroll/jquery.slimscroll.min.js"></script>
+<script src="plugins/slimScroll/jquery.slimscroll.min.js"></script>
 <!-- FastClick -->
-<script src="../plugins/fastclick/fastclick.js"></script>
+<script src="plugins/fastclick/fastclick.js"></script>
 <!-- AdminLTE App -->
-<script src="../dist/js/app.min.js"></script>
+<script src="dist/js/app.min.js"></script>
 <!-- AdminLTE for demo purposes -->
-<script src="../dist/js/demo.js"></script>
+<script src="dist/js/demo.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 </html>
