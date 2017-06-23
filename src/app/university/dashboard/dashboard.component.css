@@ -1,0 +1,49 @@
+.searchName{
+
+    width: 100px;
+    height: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ffbd00;
+    border-radius: 6px;
+    font-size: 14px;
+    background-color:azure;
+    color:black;
+    background-position: 5px 10px; 
+    background-repeat: no-repeat;
+    padding: 2px 10px 2px 20px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+/*.searchName:focus {
+    width: 25%;
+}*/
+
+.table1{
+      
+     background-color:inherit;
+     border-collapse: collapse;        
+     padding:15px;
+     width:100%;
+     color: aquamarine;  
+     text-align: left;
+            
+}
+
+.table-hover{
+      overflow-y:scroll;
+   height:100px;
+   display:block;
+}
+
+.tableHead{
+    color: yellowgreen;
+}
+.red{
+    color: red;
+    font-size: 25px;
+}
+
+.curves{
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px #888888;
+}
