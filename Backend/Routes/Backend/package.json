@@ -1,0 +1,25 @@
+{
+  "name": "placito",
+  "version": "1.0.0",
+  "description": "A Portal for company , student , university for great hiring ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Student",
+    "Placement",
+    "University",
+    "Company",
+    "Hiring"
+  ],
+  "author": "Vivek Gautam",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mongoose": "^4.11.0",
+    "morgan": "^1.8.2",
+    "nodemon": "^1.11.0"
+  }
+}
