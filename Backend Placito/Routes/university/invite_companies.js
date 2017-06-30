@@ -2,8 +2,8 @@ const express = require('express');
 const router = express.Router();
 const mongoose=require('mongoose');
 
-Company = require('./../models/company')
-Contact=require('./../models/contact')
+Company = require('./../../DatabaseModels/university/company')
+Contact=require('./../../DatabaseModels/university/contact')
 
 
 router.route('/invite_companies')
